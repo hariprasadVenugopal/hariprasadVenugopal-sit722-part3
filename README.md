@@ -61,5 +61,5 @@ Azure Container Registry and host them on Azure Kubernetes Service.
 11. If the pod is not running we have to check the logs for errors, To check the logs use this command `kubectl logs pod-name`.
 12. To verify the service is up and running, use this command `kubectl get services`.
 13. To access the application, If we are using a cloud provider, find the external IP of the node. So to access the application open a browser and
-navigate to `http://<NodeIP>/docs` url in browser. Check different endpoints via Swagger Docs such as `create new book`, `get all book`, and `delete book`.
+navigate to `http://<External_IP>/docs` url in browser. Check different endpoints via Swagger Docs such as `create new book`, `get all book`, and `delete book`.
 
