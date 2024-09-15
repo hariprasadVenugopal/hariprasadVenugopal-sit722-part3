@@ -54,7 +54,7 @@ Azure Container Registry and host them on Azure Kubernetes Service.
 4. Ensure your Dockerfile is correctly set up.
 5. Run the following command to start the application : `docker-compose up`
 6. Ensure you have a deployment.yaml file to define how your application will be deployed on Kubernetes.
-7. Update the DATABASE_URL value in deployments.yml, docker-compose.yml, config.py, database.py files with the External Database URL. Also update the container registry url in deployment.yml file.
+7. Update the DATABASE_URL value in deployments.yml, docker-compose.yml files with the External Database URL. Also update the container registry url in deployment.yml file.
 8. Use `kubectl apply -f deployments.yaml` to deploy your application to the Kubernetes cluster.
 9. To ensure our deployments are running, use this command `kubectl get deployments`.
 10. To ensure our pods are running, use this command `kubectl get pods`.
